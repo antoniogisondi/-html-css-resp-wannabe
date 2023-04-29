@@ -133,7 +133,18 @@ img {
     .container {
         width: 100%;
     }
+
+    .lessons .col img {
+        min-height: 100px;
+        max-height: 200px;
+    }
+
+    .steps .col img{
+        min-height: 100px;
+        max-height: 200px;
+    }
 }
+
 
 @media screen and (max-width: 480px){
     .container {
@@ -144,6 +155,10 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right{
+        width: 80%;
     }
 }
 /* END MEDIA QUERY DESKTOP FIRST */

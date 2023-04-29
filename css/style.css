@@ -159,6 +159,18 @@ img {
 
     .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right{
         width: 80%;
+        margin-bottom: 3rem;
     }
+
+    .steps{
+        margin: 0;
+    }
+
+    .why-us{
+        margin: 0;
+        background-color:rgba(34,34,34,255) ;
+        padding: 10% 5% 0;
+    }
+
 }
 /* END MEDIA QUERY DESKTOP FIRST */
